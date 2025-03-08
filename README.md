@@ -45,7 +45,7 @@ ___
 Caso você queira, sinta-se à vontade para sugerir melhorias ou corrigir erros em códigos, que há acidentalmente em minhas atividades. Crie um fork deste repositório, então, as alterações desejadas e envie um pull request!
 
 <div align="center">
-<img height="60"> <img src="https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC82MU5ka3B2ZWRhbUdKY2pjVlczZi5wbmcifQ:supercell:uafKbofAkCCU9ZMANjyy-45780_mPHy6Lu7vvbuie8g?width=2400" width="150">
+<img height="60"> <img src="https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC9tRDF4R1JYMUVQYU5UR2VLdFpDWC5wbmcifQ:supercell:8BjN4lcPQ-O-fXkM6fe1UyXdnXzd8JbAWB5jlvI6k3g?width=2400" width="150">
 </div>
 
 
