@@ -1,0 +1,11 @@
+
+ *** Prova prática PW II ***
+     ----------------	
+
+Conteúdo: ambiente PHP, estruturas de controle (decisão e repetição)
+
+
+Obs: A prova será composta por desenvolvimento de aplicações (prática)
+
+
+
