@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Causten";
+    src: url(../Produtos/fontes/Causten\ Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+      font-family: "Causten Bold";
+      src: url(../Produtos/fontes/Causten\ Bold.ttf) format("truetype");
+      font-weight: bold;
+      font-style: bold;
+}
+  
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Causten", sans-serif;
+}
+  
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 2% 5%;
+    animation: cima 1.5s ease-out;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 30px;
+}
+
+.nav-item a:hover {
+  color: #8531df;
+  transition: all 0.3s;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #14105f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #8531df;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: esquerda 2s ease-in-out; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    margin-left: 3rem;
+    animation: direita 3.5s ease-in-out;
+}
+
+.tabela-produtos {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabela-produtos th,
+  .tabela-produtos td {
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  
+  .tabela-produtos th {
+    background-color: #8531df;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  .tabela-produtos tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .tabela-produtos tr:hover {
+    background-color: #5e56e72b;
+  }
+
+  @keyframes esquerda {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes direita {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes cima {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

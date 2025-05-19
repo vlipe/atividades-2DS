@@ -1,0 +1,752 @@
+@font-face {
+  font-family: "EconoSans Pro Black";
+  src: url(../Escola/fontes/EconoSansPro-93BlackExpanded.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Causten";
+  src: url(../Produtos/fontes/Causten\ Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: url(../Escola/fontes/HvDTrial_Brandon_Text_Regular-BF6514e9eb617a0.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neometric Extra Bold";
+  src: url(../Escola/fontes/Neometric\ Extra\ Bold\ \(Bold\).ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-bar {
+  font-family: "Causten", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 12rem 3rem 8rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+}
+
+.login-button button {
+  font-family: "Causten", sans-serif;
+  font-size: 1rem;
+  font-weight: 550;
+  border: 2px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.login-button button a {
+  text-decoration: none;
+  color: #112d44;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+.login-button button a:hover {
+  color: white;
+}
+
+.m {
+  font-family: "EconoSans Pro Black", sans-serif;
+  font-size: 2rem;
+  color: #ed3d5f;
+}
+
+.mais {
+  font-size: 2rem;
+  color: #c4e845;
+}
+
+.conteudo {
+  margin-top: -2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.opcoes {
+  animation: esquerda 3s ease;
+  margin-left: 6rem;
+}
+
+img {
+  width: 600px;
+  height: auto;
+  margin-right: 6rem;
+  animation: direita 4s ease;
+}
+
+h1 {
+  font-family: "EconoSans Pro Black", sans-serif;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  width: 75%;
+  font-family: "EconoSans Pro Black", sans-serif;
+  line-height: 3rem;
+  color: #0a2942;
+}
+
+p {
+  font-family: "Causten", sans-serif;
+  color: #575f61;
+  font-size: 1rem;
+  width: 65%;
+  font-weight: 550;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.azul {
+  color: #112d44;
+}
+
+.amarelo {
+  color: #d69e34;
+}
+
+.vermelho {
+  color: #ed3d5f;
+}
+
+.verde {
+  color: #c4e845;
+}
+
+.virgula {
+  font-family: "Poppins", sans-serif;
+  line-height: 5px;
+}
+
+.bolinha {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+.p-1 {
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: #09498b;
+}
+
+.p-1 span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.p-1 i {
+  margin-left: 0.3rem;
+  margin-right: 0.35rem;
+  font-size: 0.9rem;
+  color: #d69e34;
+}
+
+/* seção das opções. */
+
+.secao {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.opcao {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrado {
+  background-color: white;
+  border: 2px solid #d9dcdd;
+  border-radius: 15px;
+  width: 350px;
+  height: 450px;
+}
+
+.svg1 {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #072a44;
+  background-color: #072a44;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.svg2 {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ed3d5f;
+  background-color: #ed3d5f;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.svg3 {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #d69e34;
+  background-color: #d69e34;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.svgg2 {
+  margin-left: 0.2rem;
+}
+
+svg {
+  margin-top: 0.45rem;
+  padding: auto;
+  text-align: center;
+}
+
+h5 {
+  margin-left: 1.6rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #112d44;
+  font-family: "Causten", sans-serif;
+}
+
+.quadrado p {
+  margin-left: 1.6rem;
+  font-size: 1rem;
+  width: 80%;
+}
+
+/* botões. */
+
+.listar button {
+  margin-left: 1.6rem;
+  background-color: #072a44;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.listar a button:hover {
+  cursor: pointer;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.botao button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  width: 100px;
+}
+
+.botao a {
+  text-decoration: none;
+}
+
+.botao a:visited {
+  text-decoration: none;
+}
+
+.blue h5 {
+  color: #072a44;
+  font-weight: 450;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.green h5 {
+  color: #ed3d5f;
+  font-weight: 450;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.orange h5 {
+  color: #d69e34;
+  font-weight: 450;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.green button {
+  background-color: #ed3d5f;
+}
+
+.orange button {
+  background-color: #d69e34;
+}
+
+.blue a button:hover {
+  background-color: white;
+  border: 2px solid #072a44;
+  color: #072a44;
+  transition: 0.6s ease;
+}
+
+.green a button:hover {
+  background-color: white;
+  border: 2px solid #ed3d5f;
+  color: #ed3d5f;
+  transition: 0.6s ease;
+}
+
+.orange a button:hover {
+  background-color: white;
+  border: 2px solid #d69e34;
+  color: #d69e34;
+  transition: 0.6s ease;
+}
+
+.pesquisar1 {
+  background-color: #072a44;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.pesquisar1 i {
+  font-size: 0.7rem;
+}
+
+.blue button:hover {
+  cursor: pointer;
+}
+
+.green button:hover {
+  cursor: pointer;
+}
+
+.yellow button:hover {
+  cursor: pointer;
+}
+
+.pesquisar2 {
+  background-color: #ed3d5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.pesquisar2 i {
+  font-size: 0.7rem;
+}
+
+.pesquisar3 {
+  background-color: #d69e34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.pesquisar3 i {
+  font-size: 0.7rem;
+}
+
+.inserir1 {
+  background-color: white;
+  color: #072a44;
+  border: 2px solid #072a44;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.alterar1 {
+  background-color: white;
+  color: #072a44;
+  border: 2px solid #072a44;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.excluir1 {
+  background-color: #072a44;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.inserir2 {
+  background-color: white;
+  color: #ed3d5f;
+  border: 2px solid #ed3d5f;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.alterar2 {
+  background-color: white;
+  color: #ed3d5f;
+  border: 2px solid #ed3d5f;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.excluir2 {
+  background-color: #ed3d5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.inserir3 {
+  background-color: white;
+  color: #d69e34;
+  border: 2px solid #d69e34;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.alterar3 {
+  background-color: white;
+  color: #d69e34;
+  border: 2px solid #d69e34;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.excluir3 {
+  background-color: #d69e34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Causten", sans-serif;
+}
+
+.pesquisar1:hover {
+  background-color: white;
+  border: 2px solid #072a44;
+  color: #072a44;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.inserir1:hover {
+  background-color: #072a44 !important;
+  border: none !important;
+  color: white !important;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.alterar1:hover {
+  background-color: #072a44 !important;
+  border: none !important;
+  color: white !important;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+
+.excluir1:hover {
+  background-color: white;
+  border: 2px solid #072a44;
+  color: #072a44;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.pesquisar2:hover {
+  background-color: white;
+  border: 2px solid #ed3d5f;
+  color: #ed3d5f;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.inserir2:hover {
+  background-color: #ed3d5f;
+  border: none;
+  color: white;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.alterar2:hover {
+  background-color: #ed3d5f;
+  border: none;
+  color: white;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.excluir2:hover {
+  background-color: white;
+  border: 2px solid #ed3d5f;
+  color: #ed3d5f;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+
+.pesquisar3:hover {
+  background-color: white;
+  border: 2px solid #d69e34;
+  color: #d69e34;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.inserir3:hover {
+  background-color: #d69e34;
+  color: white;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.alterar3:hover {
+  background-color: #d69e34;
+  color: white;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.excluir3:hover {
+  background-color: white;
+  color: #d69e34;
+  border: 2px solid #d69e34;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.centralizar {
+  margin-left: 2.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizar h1 {
+  color: #a9afaf;
+  font-family: "Neometric Extra Bold", sans-serif;
+}
+
+.centralizar span {
+  margin-left: -6rem;
+  font-family: "Brandon", sans-serif;
+  color: #a9afaf;
+}
+
+.centralizar .dois {
+  font-family: "Neometric Extra Bold", sans-serif;
+  padding-left: 10.4rem;
+}
+
+@keyframes esquerda {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes direita {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1250px) {
+  .nav-bar {
+    padding: 2rem 6rem;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    margin-left: 0.8rem;
+  }
+
+  .conteudo {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 4rem;
+  }
+
+  .opcoes {
+    margin-left: 0;
+  }
+
+  img {
+    width: 90%;
+    margin: 2rem 0;
+  }
+
+  h2,
+  p {
+    width: 100%;
+  }
+
+  .opcao {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .quadrado {
+    width: 90%;
+    padding-bottom: 2rem;
+    height: auto;
+  }
+
+  .listar button {
+    width: 93%;
+  }
+
+  .botao {
+    gap: 1rem;
+  }
+
+  .botao button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 1.5rem 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .login-button button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  .listar button {
+    width: 90%;
+  }
+
+  .opcao {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .svg1,
+  .svg2,
+  .svg3 {
+    width: 35px;
+    height: 35px;
+  }
+
+  h5,
+  .quadrado p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-bar {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .login-button {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .login-button button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .listar button {
+    width: 80%;
+  }
+
+  .botao button {
+    width: 100%;
+  }
+
+  .quadrado {
+    width: 60%;
+    padding: 1rem;
+  }
+
+  .centralizar {
+    margin-left: 5rem;
+    font-size: 0.7rem;
+  }
+}
