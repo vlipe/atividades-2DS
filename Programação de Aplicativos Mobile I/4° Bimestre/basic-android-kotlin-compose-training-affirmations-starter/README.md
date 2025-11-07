@@ -1,7 +1,7 @@
-# List App
----
-## App:
-![Affirmations](https://github.com/user-attachments/assets/56a486cf-6d23-41e4-97f2-0cd3c9b7296b)
-![Affirmations](https://github.com/user-attachments/assets/de2db468-c92e-41d8-8557-dd1258ac254a)
-![Affirmations](https://github.com/user-attachments/assets/4905946c-2d5e-4cf9-a7ca-c888b858d0c2)
-![Affirmations](https://github.com/user-attachments/assets/afafa11b-feee-4948-be41-a14257dbb010)
+### Execução do App
+
+
+![Affirmations](https://github.com/vlipe/atividades-2DS/blob/9cf95032e356456426e36be075da73acb5977fcf/Programa%C3%A7%C3%A3o%20de%20Aplicativos%20Mobile%20I/4%C2%B0%20Bimestre/basic-android-kotlin-compose-training-affirmations-starter/print-um.jpeg)
+![Affirmations](https://github.com/vlipe/atividades-2DS/blob/9cf95032e356456426e36be075da73acb5977fcf/Programa%C3%A7%C3%A3o%20de%20Aplicativos%20Mobile%20I/4%C2%B0%20Bimestre/basic-android-kotlin-compose-training-affirmations-starter/print-dois.jpeg)
+![Affirmations](https://github.com/vlipe/atividades-2DS/blob/9cf95032e356456426e36be075da73acb5977fcf/Programa%C3%A7%C3%A3o%20de%20Aplicativos%20Mobile%20I/4%C2%B0%20Bimestre/basic-android-kotlin-compose-training-affirmations-starter/print-tres.jpeg)
+![Affirmations](https://github.com/vlipe/atividades-2DS/blob/9cf95032e356456426e36be075da73acb5977fcf/Programa%C3%A7%C3%A3o%20de%20Aplicativos%20Mobile%20I/4%C2%B0%20Bimestre/basic-android-kotlin-compose-training-affirmations-starter/print-quatro.jpeg)
