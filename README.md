@@ -5,7 +5,7 @@ ___
 O repositório contém todas as atividades realizadas durante o segundo ano do curso de Análise e Desenvolvimento de Sistemas da ETEC da Zona Leste. Aqui, você encontrará códigos, projetos e exercícios desenvolvidos ao longo das aulas de diferentes módulos, incluindo lógica de programação, análises, banco de dados, front-end e back-end.
 
 
-> Este repositório serve como um portfólio das atividades do curso e também como uma referência para revisão de conceitos. Criei com o objetivo de demonstrar meu progresso e compreensão das ferramentas e metodologias ensinadas ao longo do curso, ou seja, onde registro cada tarefa realizada (em progresso).
+> Este repositório serve como um portfólio das atividades do curso e também como uma referência para revisão de conceitos. Criei com o objetivo de demonstrar meu progresso e compreensão das ferramentas e metodologias ensinadas ao longo do curso, ou seja, onde registro cada tarefa realizada.
 
 ___
 
@@ -39,13 +39,6 @@ ___
 ![NetBeans IDE](https://img.shields.io/badge/NetBeansIDE-021dfe.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white) &nbsp;
 ![Android Studio](https://img.shields.io/badge/android%20studio-0086ff?style=for-the-badge&logo=android%20studio&logoColor=white)
 
-<br>
-<br>
-
-Caso você queira, sinta-se à vontade para sugerir melhorias ou corrigir erros em códigos, que há acidentalmente em minhas atividades. Crie um fork deste repositório, então, as alterações desejadas e envie um pull request!
-
-<div align="center">
-<img height="60"> <img src="https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC9tRDF4R1JYMUVQYU5UR2VLdFpDWC5wbmcifQ:supercell:8BjN4lcPQ-O-fXkM6fe1UyXdnXzd8JbAWB5jlvI6k3g?width=2400" width="150">
 </div>
 
 
