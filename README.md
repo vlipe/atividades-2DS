@@ -18,7 +18,7 @@ ___
 ***Linguagens:***
 
 ![HTML](https://img.shields.io/badge/HTML-021dfe?style=for-the-badge&logo=html5&logoColor=white) &nbsp;
-![CSS](https://img.shields.io/badge/CSS-0086ff?&style=for-the-badge&logo=css3&logoColor=white) &nbsp;
+![CSS](https://img.shields.io/badge/css-%230086ff.svg?style=for-the-badge&logo=css&logoColor=white) &nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-021dfe?style=for-the-badge&logo=javascript&logoColor=white) &nbsp;
 ![PHP](https://img.shields.io/badge/php-%230086ff.svg?style=for-the-badge&logo=php&logoColor=white) &nbsp;
 ![Java](https://img.shields.io/badge/java-%23021dfe.svg?style=for-the-badge&logo=openjdk&logoColor=white) &nbsp;
