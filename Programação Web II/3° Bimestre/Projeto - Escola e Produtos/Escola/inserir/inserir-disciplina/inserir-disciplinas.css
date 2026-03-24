@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: "Causten";
+  src: url(../../fontes/Causten\ Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EconoSans Pro Black";
+  src: url(../../fontes/EconoSansPro-93BlackExpanded.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap);
+  font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.logo h4 {
+    font-family: "EconoSans Pro Black";
+    font-size: 2rem;
+}
+
+.m {
+    color: #ed3d5f;
+    font-weight: bold;
+}
+
+.mais {
+    color: #c4e845;
+    font-weight: bold;
+}
+
+.login-button button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "Causten";
+    border: 2px solid #112d44;
+    background-color: white;
+    color: #112d44;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 8px;
+}
+
+.login-button button:hover {
+    background-color: #112d44;
+    color: white;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex: 1;
+}
+
+.conteudo {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ed3d5f;
+    font-weight: 600;
+}
+
+.formulario-disciplina .grupo-campo {
+    border: 2px solid #112d44;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.grupo-campo legend {
+    color: #ed3d5f;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+::placeholder {
+    font-family: "Poppins";
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.campo input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.grupo-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.btn-cadastrar,
+.btn-limpar {
+    font-family: "Poppins";
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-cadastrar {
+    background-color: #ed3d5f;
+    color: white;
+}
+
+.btn-cadastrar:hover {
+    background-color: #ed3d5f;
+}
+
+.btn-limpar {
+    background-color: #ccc;
+    color: #333;
+}
+
+.btn-limpar:hover {
+    background-color: #bbb;
+}
+
+.botaoo, .botaoo a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: none;
+}
+
+.btn-voltar {
+    margin-top: 1.5rem;
+    text-align: center;
+    border: none;
+    font-family: "Poppins";
+    color: white;
+}
+
+.btn-voltar a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #ed3d5f;
+    background-color: #ed3d5f;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-voltar a:hover {
+    background: none;
+    transition: 0.6s ease all;
+    color: #ed3d5f;
+}
+
+.mensagem {
+    text-align: center;
+    color: green;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #f5f5f5;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.centralizar {
+    margin-top: 4rem;
+    margin-left: 2.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizar h1 {
+    color: #a9afaf;
+    font-family: "Neometric Extra Bold", sans-serif;
+}
+
+.centralizar span {
+    margin-left: -6rem;
+    font-family: "Brandon", sans-serif;
+    color: #a9afaf;
+}
+
+.centralizar .dois {
+    font-family: "Neometric Extra Bold", sans-serif;
+    padding-left: 10.4rem;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

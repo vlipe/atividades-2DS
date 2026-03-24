@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Causten";
+  src: url(../../Produtos/fontes/Causten\ Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "EconoSans Pro Black";
+  src: url(../fontes/EconoSansPro-93BlackExpanded.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Causten", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f8f8;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+}
+
+.logo h4 {
+  font-size: 2rem;
+}
+
+.m {
+  font-family: "EconoSans Pro Black", sans-serif;
+  color: #ed3d5f;
+}
+
+.mais {
+  color: #c4e845;
+}
+
+.login-button button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: "Causten", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  border: 2px solid #112d44;
+  color: #112d44;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-button button:hover {
+  background: #112d44;
+  color: #fff;
+}
+
+.tudo {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex: 1;
+}
+
+.conteudo {
+  max-width: 650px;
+  width: 100%;
+}
+
+h1 {
+  font-family: "EconoSans Pro Black", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #d69e34;
+  margin-bottom: 2rem;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.formulario-produto {
+  margin-bottom: 1.5rem;
+}
+
+.grupo-campo {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.grupo-campo legend {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #d69e34;
+  margin-bottom: 1rem;
+}
+
+.campo {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.campo input {
+  padding: 12px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.3s ease;
+}
+
+.campo input:focus {
+  border-color: #d69e34;
+  box-shadow: 0 0 0 1px #d69d34c0;
+  outline: none;
+}
+
+.grupo-botoes {
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-cadastrar {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 6px;
+  background: #d69e34;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-cadastrar:hover {
+  background: #d69d3493;
+}
+
+.mensagem {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #d69e34;
+  margin-top: 1rem;
+}
+
+.btn-voltar {
+  display: block;
+  margin: 1rem auto;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #d69e34;
+  border-radius: 6px;
+  background: transparent;
+  color: #d69e34;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-voltar:hover {
+  background: #d69e34;
+  color: #fff;
+}
+
+.btn-voltar a {
+  text-decoration: none;
+  color: inherit;
+}

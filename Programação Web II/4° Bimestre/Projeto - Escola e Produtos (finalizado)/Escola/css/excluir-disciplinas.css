@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "EconoSans Pro Black";
+  src: url(../fontes/EconoSansPro-93BlackExpanded.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Causten";
+  src: url(../../Produtos/fontes/Causten\ Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: url(../fontes/HvDTrial_Brandon_Text_Regular-BF6514e9eb617a0.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neometric Extra Bold";
+  src: url(../fontes/Neometric\ Extra\ Bold\ \(Bold\).ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-bar {
+  font-family: "Causten", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 12rem 3rem 8rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+}
+
+.login-button button {
+  font-family: "Causten", sans-serif;
+  font-size: 1rem;
+  font-weight: 550;
+  border: 2px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.login-button button a {
+  text-decoration: none;
+  color: #112d44;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+  transition: 0.6s all;
+}
+
+.login-button a button:hover {
+  background-color: #112d44;
+  border: 2px solid #112d44;
+  color: white;
+  cursor: pointer;
+}
+
+.m {
+  font-family: "EconoSans Pro Black", sans-serif;
+  font-size: 2rem;
+  color: #ed3d5f;
+}
+
+.mais {
+  font-size: 2rem;
+  color: #c4e845;
+}
+
+h1 {
+  font-family: "EconoSans Pro Black", sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #ed3d5f;
+}
+
+h2 {
+  font-family: "Causten", sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ed3d5f;
+}
+
+.tudo {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  animation: 1.9s ease-in esquerda;
+}
+
+.formulario-disciplina fieldset#a {
+  border: 2px solid #ed3d5f;
+  border-radius: 10px;
+  padding: 20px 25px;
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+  background-color: #f9f9f9;
+}
+
+.formulario-disciplina legend {
+  font-family: "EconoSans Pro Black", sans-serif;
+  font-size: 1.2rem;
+  color: #ed3d5f;
+  padding: 0 10px;
+}
+
+.formulario-disciplina p {
+  margin: 1.5rem 0;
+  font-family: "Causten", sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+.formulario-disciplina input[type="text"] {
+  width: 50%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-family: "Causten", sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.formulario-disciplina input[type="text"]:focus {
+  border-color: #ed3d5f;
+  outline: none;
+}
+
+.formulario-disciplina input[type="submit"],
+.formulario-disciplina input[type="reset"] {
+  background-color: #ed3d5f;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-right: 10px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-disciplina input[type="submit"]:hover {
+  background-color: #ed3d5f;
+}
+
+.formulario-disciplina input[type="reset"]:hover {
+  background-color: transparent;
+  color: #ed3d5f;
+}
+
+.btn-voltar {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid #ed3d5f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-voltar a {
+  text-decoration: none;
+  color: #ed3d5f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.btn-voltar:hover {
+  background-color: #f0e6ff;
+}
+
+h3 {
+    font-family: "Causten";
+}

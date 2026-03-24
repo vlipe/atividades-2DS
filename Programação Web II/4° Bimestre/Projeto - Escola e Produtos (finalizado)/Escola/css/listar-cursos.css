@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "EconoSans Pro Black";
+  src: url(../fontes/EconoSansPro-93BlackExpanded.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Causten";
+  src: url(../../Produtos/fontes/Causten\ Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: url(../fontes/HvDTrial_Brandon_Text_Regular-BF6514e9eb617a0.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neometric Extra Bold";
+  src: url(../fontes/Neometric\ Extra\ Bold\ \(Bold\).ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-bar {
+  font-family: "Causten", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 12rem 3rem 8rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+}
+
+.login-button button {
+  font-family: "Causten", sans-serif;
+  font-size: 1rem;
+  font-weight: 550;
+  border: 2px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.login-button button a {
+  text-decoration: none;
+  color: #112d44;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+  transition: 0.6s all;
+}
+
+.login-button a button:hover {
+  background-color: #112d44;
+  border: 2px solid #112d44;
+  color: white;
+  cursor: pointer;
+}
+
+.m {
+  font-family: "EconoSans Pro Black", sans-serif;
+  font-size: 2rem;
+  color: #ed3d5f;
+}
+
+.mais {
+  font-size: 2rem;
+  color: #c4e845;
+}
+
+h1 {
+  font-family: "EconoSans Pro Black", sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #112d44;
+}
+
+.tudo {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  animation: 1.9s ease-in esquerda;
+}
+
+.tabela-cursos {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabela-cursos th,
+.tabela-cursos td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.tabela-cursos th {
+  background-color: #072a44;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.tabela-cursos tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.tabela-cursos tr:hover {
+  background-color: #072a4409;
+}
+
+img {
+  margin-top: 2rem;
+  width: 30%;
+    animation: 1.9s ease-in direita;
+}
+
+.centralizar {
+  margin-top: 4rem;
+  margin-left: 2.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizar h1 {
+  color: #a9afaf;
+  font-family: "Neometric Extra Bold", sans-serif;
+}
+
+.centralizar span {
+  margin-left: -6rem;
+  font-family: "Brandon", sans-serif;
+  color: #a9afaf;
+}
+
+.centralizar .dois {
+  font-family: "Neometric Extra Bold", sans-serif;
+  padding-left: 10.4rem;
+}

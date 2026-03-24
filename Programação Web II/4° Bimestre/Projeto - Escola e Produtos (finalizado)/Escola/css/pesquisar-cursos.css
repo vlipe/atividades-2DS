@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "EconoSans Pro Black";
+    src: url("../Escola/fontes/EconoSansPro-93BlackExpanded.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Causten";
+    src: url("../Produtos/fontes/Causten Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Brandon";
+    src: url("../Escola/fontes/HvDTrial_Brandon_Text_Regular-BF6514e9eb617a0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Neometric Extra Bold";
+    src: url("../Escola/fontes/Neometric Extra Bold (Bold).ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #112d44;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    font-family: "Causten", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 12rem 3rem 8rem;
+    background-color: #fff;
+}
+
+.logo h4 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.m {
+    font-family: "EconoSans Pro Black", sans-serif;
+    color: #ed3d5f;
+}
+
+.mais {
+    color: #c4e845;
+}
+
+.login-button a {
+    text-decoration: none;
+}
+
+.login-button button {
+    font-family: "Causten", sans-serif;
+    font-size: 1rem;
+    font-weight: 550;
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.login-button button:hover {
+    background-color: #112d44;
+    border-color: #112d44;
+    color: white;
+}
+
+h1 {
+    font-family: "EconoSans Pro Black", sans-serif;
+    text-align: center;
+    margin: 2rem 0;
+    color: #112d44;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+form p {
+    margin-bottom: 1rem;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0.5rem;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    font-family: "Causten", sans-serif;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #112d44;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 0.5rem;
+}
+
+form input[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+form input[type="submit"]:hover {
+    background-color: #235b89;
+}
+
+form input[type="reset"]:hover {
+    background-color: #aaa;
+}
+
+fieldset {
+    border: 2px solid #112d44;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #112d44;
+    padding: 0 10px;
+}
+
+.tabela-cursos {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.tabela-cursos th,
+.tabela-cursos td {
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+.tabela-cursos th {
+    background-color: #112d44;
+    color: white;
+    font-weight: 500;
+}
+
+.tabela-cursos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-cursos tr:hover {
+    background-color: #ffe5eb;
+}
+
+.btn-voltar {
+    margin-top: 2rem;
+    text-align: center;
+    border: none;
+    background-color: white;
+}
+
+.btn-voltar a {
+    font-family: "Causten", sans-serif;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #112d44;
+    transition: all 0.3s;
+}
+
+.btn-voltar a:hover {
+    background-color: #112d44;
+    color: white;
+    border-color: #112d44;
+}
+
+.mensagem {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizar h1 {
+    color: #a9afaf;
+    font-family: "Neometric Extra Bold", sans-serif;
+    text-align: center;
+}
+
+.centralizar span {
+    font-family: "Brandon", sans-serif;
+    color: #a9afaf;
+}
+
+.centralizar .dois {
+    font-family: "Neometric Extra Bold", sans-serif;
+    padding-left: 10.4rem;
+}

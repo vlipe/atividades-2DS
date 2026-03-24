@@ -1,0 +1,265 @@
+@font-face {
+  font-family: "Causten";
+  src: url(../../fontes/Causten\ Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EconoSans Pro Black";
+  src: url(../../fontes/EconoSansPro-93BlackExpanded.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap);
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Causten", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav-bar {
+  font-family: "Causten", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+}
+
+.logo h4 {
+  font-size: 2rem;
+  color: #112d44;
+}
+
+.m {
+  font-family: "EconoSans Pro Black", sans-serif;
+  color: #ed3d5f;
+}
+
+.mais {
+  color: #c4e845;
+}
+
+.login-button button {
+  padding: 10px 20px;
+  font-family: "Causten", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+  border: 2px solid #112d44;
+  color: #112d44;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-button button:hover {
+  background-color: #112d44;
+  color: #fff;
+}
+
+.tudo {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 2rem;
+  flex: 1;
+}
+
+.conteudo {
+  max-width: 650px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  animation: slideIn 1s ease forwards;
+}
+
+h1 {
+  font-family: "EconoSans Pro Black", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #112d44;
+  margin-bottom: 2rem;
+}
+
+.formulario-alunos {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-campo {
+  border: none;
+  margin-bottom: 2.2rem;
+}
+
+.grupo-campo legend {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #c4e845;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #c4e845;
+  padding-bottom: 6px;
+  width: max-content;
+}
+
+.campo {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.campo input {
+  padding: 12px 15px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  font-family: "Causten", sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.campo input:focus {
+  outline: none;
+  border-color: #c4e845;
+  box-shadow: 0 0 6px rgba(237, 61, 95, 0.4);
+}
+
+.grupo-botoes {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-cadastrar,
+.btn-limpar {
+  padding: 12px 30px;
+  font-family: "Causten", sans-serif;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+}
+
+.btn-cadastrar {
+  background-color: #c4e845;
+  color: white;
+}
+
+.btn-cadastrar:hover {
+  background-color: #c4e845;
+}
+
+.btn-limpar {
+  background-color: #aaa;
+  color: white;
+}
+
+.btn-limpar:hover {
+  background-color: #888;
+}
+
+.mensagem {
+  margin-top: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #112d44;
+  text-align: center;
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+fieldset {
+    border: none;
+}
+
+.btn-voltar {
+  margin: 3rem auto 0;
+  display: block;
+  padding: 12px 35px;
+  font-family: "Causten", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #c4e845;
+  background-color: transparent;
+  border: 2.5px solid #c4e845;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  max-width: 160px;
+}
+
+.btn-voltar:hover {
+  background-color: #c4e845;
+  color: white;
+}
+
+.btn-voltar a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+footer {
+  padding: 2.5rem 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.centralizar {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizar h1 {
+  color: #a9afaf;
+  font-family: "Neometric Extra Bold", sans-serif;
+}
+
+.centralizar span {
+  margin-left: -6rem;
+  font-family: "Brandon", sans-serif;
+  color: #a9afaf;
+}
+
+.centralizar .dois {
+  font-family: "Neometric Extra Bold", sans-serif;
+  padding-left: 10.4rem;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
